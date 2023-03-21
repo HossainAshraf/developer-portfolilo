@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .ash-color {
     color: slategray;
 }
 
-section {
+.flexible-container {
 
     display: flex;
 
@@ -51,6 +55,37 @@ section {
     padding-top: 150px;
     padding-right: 450px;
 
+}
 
+.orange-color {
+    color: slategrey;
+}
 
+.experience-item {
+    box-shadow: gray 10px 10px 40px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.Experience-area {
+    background-image: url(images/black-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 140px;
+}
+
+#id1 {
+    border-left: 7px solid gray;
+}
+
+#id2 {
+    border-right: 7px solid black;
+}
+
+footer p {
+
+    text-align: center;
 }
